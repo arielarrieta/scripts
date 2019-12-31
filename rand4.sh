@@ -14,7 +14,7 @@ function Random4digit {
       echo $R1
       ;;
     3)
-      # Concatenate Zero to make a 5 digit Random number with trailing 0
+      # Concatenate Zero to make a 4 digit Random number with trailing 0
       R3+=$N3$R1
       echo $R3
       ;;
